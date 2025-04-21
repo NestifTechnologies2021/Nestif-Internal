@@ -1,0 +1,30 @@
+.error{
+    background-color:#b3c8d7;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+   display: block;
+   align-items: center;
+   overflow: hidden!important;
+   }
+.error h1{
+    color: var( --primary-color);
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-weight: 600;
+}
+
+.error button{
+    padding: 10px;
+    border-radius: 2px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.error button a{
+    color: var(--accent-color-dark);
+}

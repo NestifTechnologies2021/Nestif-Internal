@@ -1,0 +1,117 @@
+.cards-container {
+    height: fit-content;
+    padding: 8px;
+    padding-bottom: 18px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 23%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    position: relative;
+    gap: 2px;
+  }
+  .cards-container:hover{
+    box-shadow: none;
+  }
+  .cards {
+    text-align: center;
+  }
+  .cards-desc p{
+    color: var(--primary-color-white)!important;
+  }
+  .cards img {
+    width: 90%;
+  }
+  .cards a {
+    color: var(--primary-color-white)!important;
+    font-weight: 400;
+  }
+  .cards h4{
+    font-size: 20px;
+    color: var(--accent-color-dark)!important;z-index: 2;
+  }
+
+  .cards-desc {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(44, 59, 80, 0.95);
+    opacity: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+  }
+  .cards-desc a {
+    color: var(  --primary-color);
+  }
+  .cards-desc a:hover {
+   font-weight: 400;
+  }
+  .cards-desc p {
+    padding: 12px;
+    color: var(  --primary-color);
+  }
+  .cards-container:hover .cards-desc {
+    bottom: 0;
+    height: 100%;
+  }
+  @media screen and (max-width: 1041px){
+    .cards-desc p {
+      padding: 3px;
+    }
+  }
+  @media screen and (max-width: 991px){
+    .cards-desc p {
+      padding: 1px;
+      font-size: 16px;
+    }}
+    
+    @media screen and (max-width: 870px){
+      .cards-desc p {
+        padding: 1px;
+        font-size: 14px;
+      }
+  }
+  @media screen and (max-width: 770px) {
+    .HomeCard {
+      flex-direction: column;
+      justify-content: stretch;
+    }
+    .cards-container {
+      width: 60%;
+    }
+    .cards-desc p {
+      padding: 4px;
+      font-size: 18px;
+    }
+   
+  }
+  @media screen and (max-width: 507px) {
+    .cards-container {
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .cards-container {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .cards-desc p {
+      padding: 1px;
+    }
+  }
+  @media screen and (max-width: 367px) {
+    .cards-container {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 294px) {
+    .cards-desc p {
+      padding: 1px;
+      font-size: 14px;
+    }
+}

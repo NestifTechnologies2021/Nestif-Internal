@@ -1,0 +1,157 @@
+.AboutHeroSection{
+  position: relative;
+  width: 100vw;
+}
+.HeroContImg img{
+  width:100%;
+  height:100vh;
+}
+.HeroCont {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(44, 59, 80, 0.91);
+  flex-direction: column;
+}
+
+  .HeroCont p{
+    color:var( --primary-color-white);
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    text-align: justify;
+  }
+  .HeroCont h2{
+    color: var(  --primary-color-white);
+    font-weight: 600;
+
+  }
+  .HeroCont-desc{
+    width: 100%;
+    height:fit-content;
+    padding: 160px;
+    padding-top: 60px;
+    text-align: justify;
+  }
+  .HeroCont-Client{
+    width: 100%;
+    height: 25%;
+    border: 1px solid var(  --primary-color-white);
+    position: absolute;
+    bottom: 0;
+    background: rgba(116, 109, 109, 1);
+    }
+  .client{
+   height: 60%;
+    width: 100%;
+   position: absolute;
+   bottom: 0;
+  }
+
+.client img{
+  width: 120px;
+  margin: auto;
+  padding-block: 10px;
+}
+
+
+@media screen and (max-width: 1112px)
+{
+  .HeroCont-desc{
+    padding: 60px;
+
+  }
+}
+@media screen and (max-width: 1024px)
+{
+  .HeroCont-desc{
+    padding: 40px;
+
+  }
+}
+@media screen and (max-width: 991px){
+  .HeroCont{
+    flex-direction: column;
+  }
+ 
+  .HeroCont-desc{
+    width: 100%;
+    padding: 70px;
+    height: 65%;
+  }
+
+  .HeroCont-Client{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    }
+  .client{
+   height: 70%;
+   width: 100%;
+   position: unset;
+   position: absolute;
+   }
+  
+}
+@media screen and (max-width: 768px)
+{
+  .HeroCont-desc{
+    padding: 20px;
+  }
+
+
+}
+
+@media screen and (max-width: 597px)
+{
+  .HeroCont-desc{
+    padding: 20px;
+
+  }
+}
+@media screen and (max-width: 545px)
+{
+  .HeroCont-desc{
+    padding: 15px;
+
+  }
+}
+@media screen and (max-width: 502px)
+{
+  .HeroContImg img{
+    height:80vh;
+  }
+  .HeroCont-desc{
+    padding: 6px;
+
+  }
+  .HeroCont p{
+   font-size: 12px;
+  } 
+  .HeroCont-desc{
+    height: 45%;
+  }
+
+  .HeroCont-Client{
+    height: 55%;
+    }
+   
+    .client{
+     height: 80%;
+     flex-direction: column;
+  
+     }
+   
+}
+@media screen and (max-width: 424px)
+{
+  .HeroCont-desc{
+    padding: 8px;
+
+  }
+  .HeroCont p{
+    font-size: 10px;
+   }
+
+
+}

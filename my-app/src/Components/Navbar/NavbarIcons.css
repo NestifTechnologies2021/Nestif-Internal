@@ -1,0 +1,67 @@
+.Navigation a {
+    flex-direction: row;
+    color: var( --primary-color-black);
+    padding: 0 4px 0;
+    margin-top: 20px;
+  }
+  
+  .Navigation a:hover {
+    color: var( --primary-color-white);
+    background-color: var(--accent-color-dark);
+    border-radius: 4px;
+  }
+  .dropdownMenu:hover > a {
+    color: var( --primary-color-white);
+    background-color: var(--accent-color-dark);
+    border-radius: 4px 4px 4px 0px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    gap: 20px;
+    line-height: 36px;
+    width: 100%;
+  }
+  
+  .menu-icons {
+    display: none;
+  }
+  
+  @media screen and (max-width: 891px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      text-align: center;
+      width: 100%;
+      height: fit-content;
+      position: absolute;
+      top: 0;
+      left: -100%;
+      opacity: 0;
+      align-items: stretch;
+      padding: 80px 0 30px 0;
+      transition: 0.3s ease-in-out;
+    }
+    .nav-menu.active {
+      left: 0;
+      opacity: 1;
+      z-index: -1;
+      gap: 8px;
+    }
+    .menu-icons {
+      display: block;
+      cursor: pointer;
+    }
+    .menu-icons i {
+      font-size: 1.2rem;
+      color: var(--accent-color-dark);
+      position: absolute;
+      right: 0px;
+      top: 15px;
+      display: block;
+      padding-right: 20px;
+    }
+  }
+  

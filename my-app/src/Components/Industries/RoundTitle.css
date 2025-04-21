@@ -1,0 +1,25 @@
+.round{
+   border: 8px solid var(  --accent-color-grey);
+   border-radius:50%;
+   width: 230px;
+   height: 230px;
+background-color: var(--accent-color-dark);
+
+}
+.round h2{
+    color: var(--primary-color-white)!important;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 120;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    padding-top: 80px;
+}
+.main-round{
+    padding: 3rem;
+    height: 50vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, var(--accent-color-dark), var(--accent-color-grey));
+    /* background-image: url("../../public/product\ engineering.jpeg") */
+}

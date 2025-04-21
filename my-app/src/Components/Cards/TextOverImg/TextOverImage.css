@@ -1,0 +1,87 @@
+
+.TextOverImg Img{
+    width:90vw;
+    height:65vh
+}
+.ImgText {
+    height: 75vh;
+    width: 70vw;
+    position: absolute;
+    top: 5rem;
+    background: rgba(23, 57, 102, 0.6);
+    opacity: 1;
+    animation: fade 3s linear; 
+  }
+  .ImgText h1{
+    color: var(--primary-color-white);
+  }
+  @keyframes fade {
+    0% { opacity: 0 }
+    100% { opacity: 1 } ;
+  }
+  .text-cont{
+    width: 40vw;
+    color: var( --primary-color);
+    font-size: 70px;
+    margin: auto;
+    font-weight: 800;
+ margin-top: 15%;
+  }
+  @media screen and (max-width: 991px){
+    .ImgText {
+        width: 85vw;
+        height: 77vh;
+      }
+    .text-cont{
+        width: 80vw;
+      }
+      .TextOverImg Img{
+        width:100vw; 
+        height:65vh ;
+    }
+    .text-cont{
+      margin-top: 45%;
+   
+        }
+  }
+  @media screen and (max-width: 671px){
+    .ImgText {
+        width: 90vw;
+       height: 62vh;
+      }
+      .text-cont{
+        width: 95vw;
+        margin-top: 30%;
+        padding: 50px;
+      }
+      .TextOverImg Img{
+        height: 50vh;
+    }
+  }
+  @media screen and (max-width: 426px){
+    .ImgText {
+        width: 90vw;
+       height: 42vh;
+      }
+    
+      .TextOverImg Img{
+        height: 30vh;
+    }
+    .text-cont{
+    font-size: 50px;
+    margin-top: 25%;
+ 
+      }
+  }
+  @media screen and (max-width: 320px){
+    .ImgText {
+       height: 40vh;
+      }
+      .TextOverImg Img{
+        height: 28vh;
+    }
+    .text-cont{
+    font-size: 35px;
+    margin-top: 38%;
+      }
+  }

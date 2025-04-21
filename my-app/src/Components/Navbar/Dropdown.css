@@ -1,0 +1,112 @@
+.dropdownMenu {
+    all: unset;
+    padding: unset;
+    margin: unset;
+  }
+
+  .services-menu {
+    width: fit-content;
+    position: absolute;
+    text-align: left;
+    border-radius: 0px 8px 8px 8px;
+    background-color: var(--accent-color-dark);
+ 
+  }
+  .services-menu li {
+    text-align: left;
+    padding-right: 16px;
+    line-height: 35px;
+    padding: auto;
+  }
+
+  .services-menu li a {
+    color: var(--primary-color-white);
+    display: unset;
+
+  }
+  
+  .services-menu.clicked {
+    display: none;
+  }
+ 
+  .services-menu li:hover {
+    text-decoration: underline solid var( --primary-color-white);
+  }
+  @media screen and (max-width: 891px) {
+    .services-menu {
+      display: none;
+    }
+  }
+  
+  .services-submenu {
+    width: fit-content;
+    position: absolute;
+    right:-220px;
+    top: 90px;
+    text-align: left;
+    border-radius: 0px 8px 8px 8px;
+    background-color: var(--accent-color-dark);
+    padding: auto;
+  }
+  .services-submenu li {
+    text-align: left;
+    padding-right: 16px;
+    line-height: 30px;
+  }
+
+  .services-submenu li a {
+    color: var( --primary-color-white);
+    display: unset;
+
+  }
+  
+  .services-submenu.clicked {
+    display: none;
+  }
+ 
+  .services-submenu li:hover {
+    text-decoration: underline solid var( --primary-color-white);
+  }
+  @media screen and (max-width: 891px) {
+    .services-submenu {
+      display: none;
+    }
+  }
+  
+
+
+  .prod-engg-submenu {
+    width: fit-content;
+    position: absolute;
+    right:-220px;
+    top: 120px;
+    text-align: left;
+    border-radius: 0px 8px 8px 8px;
+    background-color: var(--accent-color-dark);
+    padding: auto;
+  }
+  .prod-engg-submenu li {
+    text-align: left;
+    padding-right: 16px;
+    line-height: 30px;
+  }
+
+  .prod-engg-submenu li a {
+    color: var( --primary-color-white);
+    display: unset;
+
+  }
+  
+  .prod-engg-submenu.clicked {
+    display: none;
+  }
+ 
+  .prod-engg-submenu li:hover {
+    text-decoration: underline solid var( --primary-color-white);
+  }
+  @media screen and (max-width: 891px) {
+    .prod-engg-submenu {
+      display: none;
+    }
+  }
+  

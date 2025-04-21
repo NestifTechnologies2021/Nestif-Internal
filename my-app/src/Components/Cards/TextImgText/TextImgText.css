@@ -1,0 +1,51 @@
+.TextImgText{
+   
+justify-content: space-between;
+overflow-y: hidden!important;
+ margin: auto!important;   
+}
+
+.TextImgText h4{
+    text-align: left;
+}
+.TextImgText-desc1{
+    width: 30%;
+}
+.TextImgText-desc2{
+    width: 30%;
+}
+.TextImgText-img{
+    width: 30%;  
+}
+.TextImgText-img img{
+    width: 100%; 
+    margin: auto; 
+}
+@media screen and (max-width: 1024px){
+    .TextImgText-img{
+        width: 50%;  
+    }
+    .TextImgText-desc1{
+        width: 23%;
+    }
+    .TextImgText-desc2{
+        width: 23%;
+    }
+}
+@media screen and (max-width: 991px){
+    .TextImgText{
+        flex-direction: column;
+    }
+    .TextImgText-img{
+        width: 90%;  
+        margin-top: 15px;
+    }
+    .TextImgText-desc1{
+        width: 90%;
+        margin-top: 15px;
+    }
+    .TextImgText-desc2{
+        width: 90%;
+        margin-top: 15px;
+    }
+}

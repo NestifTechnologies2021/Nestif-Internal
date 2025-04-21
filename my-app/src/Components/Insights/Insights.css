@@ -1,0 +1,10 @@
+.insightsBorder{
+    border-left: 6px solid ;
+     border-image: linear-gradient(102.57deg,#173966,#b600b3 70%,#bc4e4e 0); 
+    height: 500px;
+    border-image-slice: 1;
+    background: transparent;
+}
+.insightImg {
+  width:50%;
+  }

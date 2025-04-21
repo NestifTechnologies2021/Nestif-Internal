@@ -1,0 +1,115 @@
+.Text-Cont {
+    margin: auto;
+  }
+  .Text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .Text-overlap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Text-overlap-desc {
+    width: 90%;
+    height: 400px;
+    margin-left: -90px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  }
+  .Text-overlap-contents {
+    padding: 120px;
+  }
+  .Text-overlap-img img {
+    width: 100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+  }
+  .Text-overlap-img {
+    width: 60%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .Text-overlap-contents h4{
+    text-align: left;
+   }
+  
+  @media screen and (max-width: 1024px) {
+    .Text-overlap-img {
+      width: 100%;
+    }
+    .Text-overlap-desc {
+      width: 100%;
+      height: 350px;
+    }
+    .Text-overlap-contents {
+      padding: 65px 0 0 100px;
+    }
+    .Text-overlap-img {
+      margin-left: 90px;
+    }
+  }
+  @media screen and (max-width: 891px) {
+    .Text-overlap-img {
+      width: 100%;
+    }
+    .Text-overlap-desc {
+      width: 100%;
+      height: 350px;
+    }
+    .Text-overlap-contents {
+      padding: 80px 0px 0px 130px;
+    }
+    .Text-overlap-img {
+      margin-left: 90px;
+    }
+  }
+  @media screen and (max-width: 770px) {
+    .Text-overlap {
+      display: flex;
+      flex-direction: column;
+    }
+    .Text-overlap-img {
+      margin-left: 0px;
+    }
+    .Text-overlap-img {
+      width: 80%;
+    }
+    .Text-overlap-desc {
+      width: 90%;
+      margin-left: 0px;
+      height: 275px;
+      margin: auto;
+      margin-top: -30px;
+    }
+    .Text-overlap-contents {
+      text-align: center;
+      padding: 75px 0px 0px 10px;
+    }
+  }
+  @media screen and (max-width: 591px) {
+    .Text-overlap-desc {
+      width: 90%;
+      margin-left: 0px;
+      height: 300px;
+      margin: auto;
+      margin-top: -60px;
+    }
+  }
+  
+  @media screen and (max-width: 321px) {
+    .Text-overlap-desc {
+      width: 90%;
+      height: 350px;
+      margin-top: 0px;
+    }
+    .Text-overlap-img {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+.whoweare h2,p{
+    text-align: left;
+    color: var( --primary-color-black);
+
+}
+.whoweare h2{
+    text-underline-offset: 8px;
+    background-color: unset !important;
+    border: 0;
+    border: none;
+    font-weight: 600;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(102.57deg,#173966,#b600b3 70%,#bc4e4e 0);
+    border-image-slice: 1;
+    background: transparent;
+}

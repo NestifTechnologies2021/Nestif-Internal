@@ -1,0 +1,19 @@
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    height: 12vh;
+    background-color: var( --primary-color-white);
+    margin-bottom: 2rem;
+  }
+  .Navbar {
+    padding: 0 20px 0 20px;
+    margin-top: 0px;
+    justify-content: space-between;
+  }
+  .Navbar img {
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  

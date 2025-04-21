@@ -1,0 +1,51 @@
+
+  .HeroCardContainer {
+    max-width: 1200px;
+    margin-inline: auto;
+    justify-content: center;
+  }
+  .hero-cards {
+    height: 260px;
+max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 92%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-top: 12px solid var( --accent-color-dark);
+    border-bottom: 12px solid var( --accent-color-dark);
+  }
+
+ .cardcont{
+  flex-direction: column;
+ }
+  .cardHeading {
+    text-align: center;
+  }
+  
+  .cardHeading p{
+    text-align: justify;
+  }
+  @media screen and (max-width: 946px) {
+    .heroCard {
+      flex-direction: column;
+      justify-content: stretch;
+    }
+    .hero-cards {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 546px) {
+    .hero-cards {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 321px) {
+    .hero-cards {
+      width: 100%;
+    }
+  }
+  

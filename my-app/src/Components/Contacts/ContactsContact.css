@@ -1,0 +1,33 @@
+.Contacts-Contact-link {
+    flex-direction: row;
+    text-align: center;
+    color: var(--primary-color);
+    cursor: pointer;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+      position: relative; 
+      width: 100%;
+    padding-block: 10px;
+      padding-top: 15px;
+      margin-top: 10px;
+  }
+.address{
+  padding: 4px;
+  
+}
+.addressContact{
+margin-left: 4%;
+}
+@media screen and (max-width:991px){
+  .Contacts-Contact-link {
+      width: 80%;
+      margin: auto;
+      margin-block: 20px;
+  }
+}
+@media screen and (max-width:321px){
+  .Contacts-Contact-link {
+      width: 90%;
+      margin-block: 15px;
+  }
+}
+  

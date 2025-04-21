@@ -1,0 +1,37 @@
+.Social-icons {
+    gap: 1px;
+    flex-direction: column;
+    position: fixed;
+    position: fixed;
+    top: 150px;
+    font-size: 22px;
+    padding: 10px 25px 10px 0px;
+    z-index: 100;
+  }
+  .Social-links {
+    width: 40px;
+    font-size: 20px;
+    color: var(--primary-color-white);
+    padding: 8px;
+    height: fit-content;
+  }
+  .Social-links-facebook {
+    background-color: #4267b2;
+  }
+  .Social-links-twitter {
+    background-color: #1da1f2;
+  }
+  .Social-links-instagram {
+    background-color: #e1306c;
+  }
+  .Social-links-linkedin {
+    background-color: #0077b5;
+  }
+  .Social-links-youtube {
+    background-color: #ff0000;
+  }
+  .Social-links:hover {
+    color: var(--primary-color);
+    transform: scale(1.2);
+  }
+  

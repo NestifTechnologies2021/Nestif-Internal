@@ -1,0 +1,8 @@
+.Contact-link {
+    flex-direction: column;
+    align-items: flex-start;
+    color: var( --primary-color-white);
+    cursor: pointer;
+    
+  }
+  
