@@ -24,9 +24,22 @@ import ArtificialIntelligence from "./Pages/AI.js";
 import WorkforceManagement from "./Pages/WorkforceManagement.js";
 import SoftwareDevelopment from "./Pages/SoftwareDevelopment.js";
 import SkillManagement from "./Pages/SkillManagement.js";
-
+import Internship from "./Pages/Internship.js";
+import CoreLanguage from './Pages/CoreLanguage';
+import WebPlatforms from "./Pages/WebPlatforms.js";
+import WindowPlatform from './Pages/WindowPlatform.js';
+import CloudTechnologies from './Pages/CloudTechnologies';
+import Arti from './Pages/ArtificialIntelligence.js';
+import Certificates from './Pages/Certificates';
 
 export default function App() {
+ function App() {
+   const [submittedData, setSubmittedData] = useState(null);
+  //  function handleContactData  (data)  {
+  //   console.log("Data received to app:", data);
+  //   // setSubmittedData(data);
+  //   // onDataToNavbar(data); // Pass data to Navbar or higher-level component
+  // }
   return (
     <div className="App HeroContainer">
       <Routes>
@@ -35,7 +48,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/media" element={<Media />} />
         <Route path="/careers" element={<Careers />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/contacts" element={<Contacts />}  />
         <Route path="/productEngg" element={<ProductEngg />} />
         <Route path="/softwareconsulting" element={<SoftwareCons />} />
         <Route path="/marketing" element={<Marketing />} />
@@ -53,8 +66,16 @@ export default function App() {
         <Route path="/workforcemanagement" element={<WorkforceManagement />} />
         <Route path="/softwaredevelopment" element={<SoftwareDevelopment/>} />
         <Route path="/skilldevelopment" element={<SkillManagement />} />
+        <Route path="/internship" element={<Internship />} />
+        <Route path="/CoreLanguage" element={<CoreLanguage />} />
+        <Route path="/WebPlatforms" element={<WebPlatforms />} />
+         <Route path="/WindowPlatform" element={<WindowPlatform />} />  
+         <Route path="/CloudTechnologies" element={<CloudTechnologies />} />
+         <Route path="/Arti" element={<ArtificialIntelligence />} />
+        <Route path="/Certificates" element={<Certificates />} /> 
         <Route element={<Error />} />
       </Routes>
     </div>
   );
+}
 }
