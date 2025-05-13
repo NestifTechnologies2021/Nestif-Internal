@@ -1,0 +1,15 @@
+import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
+import InternshipHeroCard from "../Components/Cards/HeroCard/CertHeroCard";
+
+function Certificates() {
+    return (
+      <div>
+       <Navbar/>
+       <InternshipHeroCard/> 
+     <Footer/>
+      </div> 
+    );
+  }
+
+  export default Certificates;
