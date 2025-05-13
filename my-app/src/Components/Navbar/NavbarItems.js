@@ -71,6 +71,11 @@ export const NavbarItems = [
       title: "Software Development",
       url: "/softwaredevelopment"
       
+    },
+    {
+      id: 6,
+      title: "Internships & Trainings",
+      url: "/internship"
     }
   ];
   export const MediaDropdownItems = [

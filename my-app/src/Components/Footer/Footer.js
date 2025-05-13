@@ -23,7 +23,7 @@ const Footer = () => {
             <a href="/workforcemanagement">Workforce Management</a>
             <a href="/productEngg">Product Engineering</a>
             <a href="/skilldevelopment">Skill Development</a>
-           
+          {/* <a href="/Internship">Internships & Trainings</a>  additionally added */}
           </div>
           <div>
             <h4>Insights</h4>
