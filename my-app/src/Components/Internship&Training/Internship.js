@@ -1,7 +1,7 @@
 //Taijasi
 import "../SoftwareConsulting/Consulting.css"
 import CoreLanguage from '../../Pages/CoreLanguage';
-import WebPlatforms from '../../Pages/WebPlatforms.js/index.js';
+import WebPlatforms from '../../Pages/WebPlatforms.js';
 import WindowsPlatforms from '../../Pages/WindowPlatform.js';
 import CloudTechnologies from '../../Pages/CloudTechnologies';
 import Arti from '../../Pages/ArtificialIntelligence';
