@@ -33,13 +33,7 @@ import Arti from './Pages/ArtificialIntelligence.js';
 import Certificates from './Pages/Certificates';
 
 export default function App() {
- function App() {
-   const [submittedData, setSubmittedData] = useState(null);
-  //  function handleContactData  (data)  {
-  //   console.log("Data received to app:", data);
-  //   // setSubmittedData(data);
-  //   // onDataToNavbar(data); // Pass data to Navbar or higher-level component
-  // }
+
   return (
     <div className="App HeroContainer">
       <Routes>
@@ -76,6 +70,5 @@ export default function App() {
         <Route element={<Error />} />
       </Routes>
     </div>
-  );
-}
+  ); 
 }
